@@ -1,0 +1,47 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/style.css" />
+    <title>Codeland</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Codeland Survey</h1>
+      <form action="/survey" method="post">
+        <!-- Name -->
+        <label>Name:</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          required /><br />
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Enter your email"
+          required /><br />
+
+        <!-- Suggestions -->
+        <label>How can we improve our services?</label><br />
+        <textarea
+          placeholder="Enter your suggestions here"
+          name="feedback"
+          id=""
+          cols="30"
+          rows="8"
+          required></textarea
+        ><br />
+
+        <!-- Submit -->
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

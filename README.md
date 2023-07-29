@@ -8,10 +8,19 @@ Express js is still one of the most preferred Node js frameworks in the javascri
 
 Feel free to reach out to me to contribute to this repository or for any suggestions.
 
-## Installations
+## To Setup this project Locally
 
-You can get express from the npm js registry using npm, yarn or pnpm. Before installing, be sure to have Node js installed. For this project, I will be using npm:
+You can explore express in the [npm js registry](https://www.npmjs.com/package/express). Before the project setup, be sure to have Node js installed. For this project, I will be using npm:
 
-`npm install express`
+To setup this project locally, follow the steps below and don't forget to star the project 😊:
 
-To read more about express js, visit: [TypeScript Installation Guide](https://expressjs.com/en/guide/routing.html)
+1. Clone project to your machine:
+   `git clone https://github.com/Martinsngene/getting_started_with_express.git`
+
+2. Install dependencies:
+   `npm install`
+
+3. Now you can start project:
+   `npm run start`
+
+To read more visit the: [Express js Installation Guide](https://expressjs.com/en/guide/routing.html)
